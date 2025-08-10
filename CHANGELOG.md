@@ -1,3 +1,7 @@
+## 3.2.2
+
+* Make weightLimit configurable. WeightLimit is the portion of the closed child that remains visible.
+
 ## 3.2.1
 
 * When rebuilding SplitView with an inline-constructed controller, the new controller was not assigned to _SplitViewState._controller and thus, did not get notified of moves after the first rebuild. (@jpnurmi)
